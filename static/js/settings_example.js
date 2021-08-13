@@ -1,15 +1,32 @@
 // Settings
 omegleSettings = {
-    // Default topics
-    defaultTopics: [
+    // Default topics'Girl',
+'Gf',
+'Girlfriend',
+'Female',
+'Boy',
+'Bf',
+'Boyfriend',
+'Male',
+'Snapchat',
+'Tiktok'
+    defaultTopics: ['Girl',
+'Gf',
+'Girlfriend',
+'Female',
+'Boy',
+'Bf',
+'Boyfriend',
+'Male',
+'Snapchat',
+'Tiktok'
         'noMultiRP ',   // This topic will cause the bots to disconnect if they connect to each other
         'rp',
         'roleplay'
     ].join(),
 
-    // The default message to send to people
-    defaultMessage: 'Please make a copy of static/js/settings_example.js, and call it static/js/settings.js',
-
+    // The default message to send to people M15, green eyes, 6 foot, curly hair, hispanic, add my snap ang3lcard0za28
+    defaultMessage: M15, green eyes, 6 foot, curly hair, hispanic, add my snap ang3lcard0za28
     // Extra params to add
     bonusParams: {
     },
@@ -48,7 +65,7 @@ omegleSettings = {
     maxWaitType: 15,
 
     // The max amount of time we will wait for them to send the first message
-    maxWaitMessage: 45,
+    maxWaitMessage: 15,
 
     // This will auto disconnect if someone speaks within 3 seconds and didn't send a "typing" command
     // This kind of thing is very common for bots, but, you also get it for some phone apps
